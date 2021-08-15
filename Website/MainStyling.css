@@ -1,18 +1,38 @@
+/*
+1ST Accent Color: #347
+2nd Accent Color: #2bf
+*/
+
+
+/* generic HTML + body styling */
+html {
+    position: absolute;
+    min-height: 100%;
+    width: 95%;
+    overflow: auto;
+}
+body {
+    font-family: verdana;
+    color: white;
+    background-color: #1E2124;
+    text-align: center;
+}
+
 /* styling for main content (div) */
 .content {
     position: absolute;
     padding-top: 50px;
 }
 h2 {
-  color: #3186A0;
+  color: #347;
   font-size: 35px;
   margin-left: 10px;
 }
 hr {
-  border-top: 10px solid #3186A0;
+  border-top: 10px solid #2bf;
   height: 1px;
-  background-color: #3186A0;
-  border-color: #3186A0;
+  background-color: #2bf;
+  border-color: #2bf;
   border-width: 2px;
   opacity: .2;
   box-shadow: 6px 4px #000;
