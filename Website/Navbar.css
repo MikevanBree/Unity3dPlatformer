@@ -1,20 +1,55 @@
-/* generic HTML + body styling */
-html {
-    position: absolute;
-    min-height: 100%;
-    width: 95%;
-    overflow: auto;
-}
-body {
-    font-family: verdana;
-    color: white;
-    background-color: #1E2124;
-    text-align: center;
-}
-
 /* navbar logo styling */
 .navbar-logo {
     margin-top: -10px;
     max-height: 45px;
     width: auto;
+}
+
+/* Dropdown related classes */
+.dropbtn {
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #3a3a3a;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #4FCCF3;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #2b2b2b;
+}
+
+.dropdown a {
+    color: white;
+}
+.dropdown .active {
+    color: #3186A0;
 }
