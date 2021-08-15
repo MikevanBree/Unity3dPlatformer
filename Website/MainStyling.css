@@ -1,0 +1,29 @@
+/* styling for main content (div) */
+.content {
+    position: absolute;
+    padding-top: 50px;
+}
+h2 {
+  color: #3186A0;
+  font-size: 35px;
+  margin-left: 10px;
+}
+hr {
+  border-top: 10px solid #3186A0;
+  height: 1px;
+  background-color: #3186A0;
+  border-color: #3186A0;
+  border-width: 2px;
+  opacity: .2;
+  box-shadow: 6px 4px #000;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+h1 {
+  font-size: 150%;
+  color: #FFF;
+}
+p {
+  color: #FFF;
+}
